@@ -22,6 +22,8 @@
         height: 50vh;
       }
     </style>
+    <script src="http://maps.google.com/maps/api/js?sensor=true" type="text/javascript"></script>
+    <script src="js/gmaps.js"></script>  
 
  
 	<div data-role="header" data-position="fixed" data-tap-toggle="false"> 
@@ -31,8 +33,16 @@
     <div data-role="content">
     <div id="map"></div>
 
-<div id="infomap"></div>
-       <div class="allinea"><h1>Quick Quote</h1>     <h2><i class="fa fa-phone-square"></i> <a href="tel:7327544660">732.754.4660</a></h2></div>
+    <div id="infomap"></div>
+    
+       <div class="contacts">
+          <h1>Action Limousines</h1>     
+          <h2><i class="fa fa-map-marker"></i> 643 South Avenue, Garwood, NJ 07027 </h2> <br>
+          <h2><i class="fa fa-phone-square"></i> <a href="tel:7327544660">732.754.4660</a></h2> <br>
+          <h2><i class="fa fa-phone-square"></i> <a href="tel:7323887282">732.388.7282</a></h2> <br>
+          <h2><i class="fa fa-envelope"></i> <a href="mailto:reservations@actionlimos.com">reservations @ actionlimos.com</a></h2><br>
+          <h2><i class="fa fa-link"></i> <a href="#" onClick="cordova.InAppBrowser.open('http://www.actionlimos.com/', '_blank', 'location=no,toolbarposition=top,closebuttoncaption=Close')" >www.actionlimos.com/</a></h2>
+       </div>
     </div>  
     
 	
@@ -46,9 +56,8 @@
 		</div><!-- /navbar -->
 	</div><!-- /footer -->
     
-    
-    <script src="js/gmaps.js"></script>  
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0v5wxPVBiEReFXpxq1iNeZHvleEVS8jQ&callback=initMap&language=ja&region=JP" async defer></script>
+
+       <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0v5wxPVBiEReFXpxq1iNeZHvleEVS8jQ&callback=initMap&language=ja&region=JP" async defer></script>-->
   
 </div><!-- /page --> 
   
