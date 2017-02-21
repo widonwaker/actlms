@@ -741,6 +741,11 @@ input.ui-input-text, .ui-input-search {
 .allinea h1, h2, a {
 	color: #009a0c;
 }
+.contacts, .contacts h2, .contacts a {
+	background-color: #63BB48;
+	color: #FFFFFF;
+	text-align: center;
+}
 
 @media screen 
 and (max-width : 480px) {
