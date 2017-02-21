@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.apploadin.unicaMRKT" 
+        id        = "com.apploadin.actionlimos" 
         version   = "1.0.0"
 	ios-CFBundleVersion = "1.0.0"> 
 
-    <name>ActionLimos</name>
+    <name>Action Limos</name>
 
     <description>
-        ActionLimos
+        Action Limos
     </description>
 
     <author href="http://www.stefanoiodice.it/" email="stefano.iodice.na@gmail.com">
