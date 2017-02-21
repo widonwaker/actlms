@@ -1,4 +1,4 @@
-
+$( document ).on( "mobileinit", function() {
 var yourLatLng;
 var resortLatLng;
 var directionsService=new google.maps.DirectionsService();
@@ -58,4 +58,5 @@ function percorso() {
 }
 function positionError(error) {
    alert("Impossibile rilevare la tua posizione. Assicurarsi di abilitare la geolocalizzazione sul proprio dispositivo.");
+}
 }
