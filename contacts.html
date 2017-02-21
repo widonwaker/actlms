@@ -1,0 +1,58 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+	<meta charset="utf-8" /> 
+	<title>ActionLimos</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 	 
+	<link rel="stylesheet" href="themes/actionlimos.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+	
+</head> 
+<body> 
+ 
+<div data-role="page"> 
+    <style>
+      #map {
+        width: 100%;
+        height: 50vh;
+      }
+    </style>
+
+ 
+	<div data-role="header" data-position="fixed" data-tap-toggle="false"> 
+		<img src="images/logo.png" class="logo"></img>
+	</div><!-- /header --> 
+    
+    <div data-role="content">
+    <div id="map"></div>
+
+<div id="infomap"></div>
+       <div class="allinea"><h1>Quick Quote</h1>     <h2><i class="fa fa-phone-square"></i> <a href="tel:7327544660">732.754.4660</a></h2></div>
+    </div>  
+    
+	
+	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish">
+		<div data-role="navbar" class="nav-glyphish">
+			<ul>
+				<li><a href="#" onClick="ToHome()"  id="hometab" data-icon="custom">Home</a></li>
+                <!--<li><a href="#" id="tabB" data-icon="custom" >Services</a></li>-->
+				<li><a href="#" id="contactstab" data-icon="custom" class="ui-btn-active">Contacts</a></li>
+			</ul>
+		</div><!-- /navbar -->
+	</div><!-- /footer -->
+    
+    
+    <script src="js/gmaps.js"></script>  
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0v5wxPVBiEReFXpxq1iNeZHvleEVS8jQ&callback=initMap&language=ja&region=JP" async defer></script>
+  
+</div><!-- /page --> 
+  
+
+
+</body> 
+</html> 
