@@ -88,9 +88,9 @@ function offlineAppreso() {
 }	
 function onOffline() {
 navigator.notification.alert(
-    'E\' richiesta una connessione ad internet per poter utilizzare questa applicazione. Assicurati di essere connesso ad una rete wifi o abilita i dati cellulare.',  // message
+    'You need an internet connection to use this application.',  // message
     offlineAppreso,         // callback
-    'Attenzione!',            // title
+    'Warning!',            // title
     'Ok'                  // buttonName
 );
 }
