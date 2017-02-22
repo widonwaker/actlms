@@ -779,6 +779,7 @@ and (min-width : 480px) {
 }
 .centerimgg {
     background: rgba(0, 0, 0, 0) linear-gradient(#a7e11a, #85b80a) repeat scroll 0 0;
+	background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a7e11a), color-stop(100%, #85b80a));
     color: #fff;
     display: inline-block;
     font-size: 30px !important;
