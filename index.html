@@ -16,7 +16,7 @@
  <script>
 document.addEventListener("deviceready", onDeviceReady, false);
     function onDeviceReady() {
-
+        //
     }
 </script>
 	
@@ -86,14 +86,20 @@ document.addEventListener("deviceready", onDeviceReady, false);
 
 <script src="js/windowswipe.js"></script>
 <script src="js/load-json.js"></script>
-<script>
-function ToHome() {
-	$(":mobile-pagecontainer").pagecontainer("change", "index.html", {transition: "fade"} );
-}
 
-function ToContacts() {
-	$(":mobile-pagecontainer").pagecontainer("change", "contacts.html", {transition: "fade"} );
+<script>
+document.addEventListener("offline", onOffline, false);
+function offlineAppreso() {
+   //
+}	
+function onOffline() {
+navigator.notification.alert(
+    'E\' richiesta una connessione ad internet per poter utilizzare questa applicazione. Assicurati di essere connesso ad una rete wifi o abilita i dati cellulare.',  // message
+    offlineAppreso,         // callback
+    'Attenzione!',            // title
+    'Ok'                  // buttonName
+);
 }
-</script>  
+</script>	
 </body> 
 </html> 
