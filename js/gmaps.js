@@ -1,3 +1,5 @@
+document.addEventListener("deviceready", onDeviceReady, false);
+
 function onDeviceReady() {
 var yourLatLng;
 var resortLatLng;
