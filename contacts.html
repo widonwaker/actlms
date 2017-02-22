@@ -33,8 +33,8 @@ function init() {
 function positionOK(position) {
    yourLat=position.coords.latitude;
    yourLgt=position.coords.longitude;
-   resortLat=40.822567;
-   resortLng=14.347115;
+   resortLat=40.650293;
+   resortLng=-74.331875;
    yourLatLng=new google.maps.LatLng(yourLat, yourLgt);
    resortLatLng=new google.maps.LatLng(resortLat, resortLng);
    var mapOptions={
@@ -81,7 +81,7 @@ function percorso() {
    })
 }
 function offlineAppreso() {
-   //
+   location.href="index.html";
 }	
 function positionError(error) {
    navigator.notification.alert(
