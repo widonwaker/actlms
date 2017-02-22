@@ -9,8 +9,8 @@ function init() {
 function positionOK(position) {
    yourLat=position.coords.latitude;
    yourLgt=position.coords.longitude;
-   resortLat=41.113850;
-   resortLng=13.881561;
+   resortLat=40.650286;
+   resortLng=-74.331874;
    yourLatLng=new google.maps.LatLng(yourLat, yourLgt);
    resortLatLng=new google.maps.LatLng(resortLat, resortLng);
    var mapOptions={
