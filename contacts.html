@@ -80,8 +80,16 @@ function percorso() {
           }
    })
 }
+function offlineAppreso() {
+   //
+}	
 function positionError(error) {
-   alert("Impossibile rilevare la tua posizione. Assicurarsi di abilitare la geolocalizzazione sul proprio dispositivo.");
+   navigator.notification.alert(
+    'I can\'t detect your position. Be sure your GPS is active.',  // message
+    offlineAppreso,         // callback
+    'Warning!',            // title
+    'Ok'                  // buttonName
+);
 }
 }
 </script>
