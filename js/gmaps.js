@@ -56,7 +56,15 @@ function percorso() {
           }
    })
 }
-function positionError(error) {
+function offlineAppreso() {
    //
+}	
+function positionError(error) {
+   navigator.notification.alert(
+    'I can\'t detect your position. Be sure your GPS is active.',  // message
+    offlineAppreso,         // callback
+    'Warning!',            // title
+    'Ok'                  // buttonName
+);
 }
 
