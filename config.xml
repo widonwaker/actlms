@@ -114,7 +114,7 @@
         <allow-intent href="itms-apps:*" />
 	<gap:config-file platform="ios" parent="NSLocationAlwaysUsageDescription" overwrite="false">
         <array>
-        <string>Action Limos would like to access your local position</string>
+        <string>Action Limos would like to use your actual location</string>
         </array>
         </gap:config-file>    
 	<gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
