@@ -48,6 +48,7 @@
 	<plugin name="cordova-plugin-network-information" source="npm"/>
 	<plugin name="cordova-plugin-geolocation" source="npm"/>
 	<plugin name="onesignal-cordova-plugin" source="npm" />
+	<plugin spec="https://github.com/dpa99c/cordova-custom-config.git" source="git"/>
 
    <access origin="*"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
