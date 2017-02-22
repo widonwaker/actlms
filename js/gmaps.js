@@ -1,4 +1,6 @@
-$( document ).on( "mobileinit", function() {
+document.addEventListener("deviceready", onDeviceReady, false);
+
+function onDeviceReady() {
 var yourLatLng;
 var resortLatLng;
 var directionsService=new google.maps.DirectionsService();
