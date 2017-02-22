@@ -2,7 +2,7 @@
 <html> 
 	<head> 
 	<meta charset="utf-8" /> 
-	<title>ActionLimos</title> 
+	<title>Action Limos</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"> 	 
 	<link rel="stylesheet" href="themes/actionlimos.min.css" />
 	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
@@ -19,17 +19,9 @@
     </style>
     <script src="http://maps.google.com/maps/api/js?sensor=true&amp;language=en-GB" type="text/javascript"></script>
     <script src="js/gmaps.js"></script>  
-    <script>
-	    function onLoad() {
-		    if (typeof navigator.device == "undefined") {
-			    document.addEventListener("deviceready", onDeviceReady, false);
-		    } else {
-			    onDeviceReady();
-		    }
-	    }
-    </script>
+
 </head> 
-<body onload="onLOad();"> 
+<body> 
  
 <div data-role="page"> 
 
@@ -58,7 +50,7 @@
 	<div data-role="footer" data-position="fixed" data-tap-toggle="false" class="nav-glyphish">
 		<div data-role="navbar" class="nav-glyphish">
 			<ul>
-				<li><a href="#" onClick="ToHome()"  id="hometab" data-icon="custom">Home</a></li>
+				<li><a href="#" onClick="location.href='index.html'"  id="hometab" data-icon="custom">Home</a></li>
                 <!--<li><a href="#" id="tabB" data-icon="custom" >Services</a></li>-->
 				<li><a href="#" id="contactstab" data-icon="custom" class="ui-btn-active">Contacts</a></li>
 			</ul>
