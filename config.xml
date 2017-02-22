@@ -48,7 +48,6 @@
 	<plugin name="cordova-plugin-network-information" source="npm"/>
 	<plugin name="cordova-plugin-geolocation" source="npm"/>
 	<plugin name="onesignal-cordova-plugin" source="npm" />
-	<plugin spec="https://github.com/dpa99c/cordova-custom-config.git" source="git"/>
 
    <access origin="*"/>
     <!-- Added the following intents to support the removal of whitelist code from base cordova to a plugin -->
@@ -113,10 +112,7 @@
    
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
-	<config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-        <string>This app requires constant access to your location in order to track your position, even when the screen is off.</string>
-        </config-file>
-	<gap:config-file platform="ios" parent="NSLocationAlwaysUsageDescription" overwrite="true">
+	<gap:config-file platform="ios" target="*-Info.plist" parent="NSLocationAlwaysUsageDescription" overwrite="true">
         <array>
         <string>Action Limos would like to use your actual location</string>
         </array>
