@@ -57,6 +57,6 @@ function percorso() {
    })
 }
 function positionError(error) {
-   alert("Impossibile rilevare la tua posizione. Assicurarsi di abilitare la geolocalizzazione sul proprio dispositivo.");
+   //
 }
 
