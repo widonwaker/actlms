@@ -2,8 +2,8 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.apploadin.actionlimos" 
-        version   = "1.0.0"
-	ios-CFBundleVersion = "1.0.0"> 
+        version   = "1.0.1"
+	ios-CFBundleVersion = "1.0.1"> 
 
     <name>Action Limos</name>
 
@@ -120,10 +120,10 @@
         <false/>
         </gap:config-file>
 	<gap:config-file platform="ios" parent="CFBundleVersion">
-                <string>1.0.0</string>
+                <string>1.0.1</string>
         </gap:config-file>
 	<gap:config-file platform="ios" parent="CFBundleShortVersionString">
-                <string>1.0.0</string>
+                <string>1.0.1</string>
         </gap:config-file>
     </platform>
 
